@@ -1,0 +1,138 @@
+
+.add-florist-back{
+  height:"100%";
+  background-image:linear-gradient(to right, rgba(134, 134, 134, 0.458),rgba(173, 173, 173, 0.49)), url(https://www.teahub.io/photos/full/301-3012482_red-flowers-blossom-blue-blurred-background-wallpaper-red.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ 
+}
+.add-florist-header{
+  padding: 2rem;
+  text-shadow: 2px 2px  rgb(88, 0, 38);
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  font-size: 60px;
+  font-weight: 800;
+  font-style: oblique;
+  text-align: center;
+  color: #9cffea;
+  font-family: 'Calligraffitti', cursive;
+  letter-spacing: 3px;
+  
+}
+.text-box-add-florist{
+  background-color: rgba(253, 58, 201, 0.253);
+}
+.add-flower-header{
+  background-image: linear-gradient(to right,rgba(255, 236, 236, 0.563),rgba(246, 223, 223, 0.59)),url(https://media.istockphoto.com/photos/vivid-color-hydrangea-in-blur-style-picture-id496705525?b=1&k=20&m=496705525&s=170667a&w=0&h=KWISe823HRVZHeK9CCbMOvoZC8aZwgiB_dkkJBTYFuw=);
+  padding: 2rem;
+  text-shadow: 2px 2px 3px #9d9d9d;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  font-size: 70px;
+  font-weight: 800;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(87, 34, 167);
+  background-position: center;
+  font-family: 'Calligraffitti', cursive;
+  letter-spacing: 5px;
+}
+.home-back{
+  height:"100%";
+  background-image: linear-gradient(to right,rgba(195, 195, 195, 0.479), rgba(160, 160, 160, 0.578)),url(https://data.jigsawpuzzle.co.uk/eurographics.37/plush-petals-flower-shop-jigsaw-puzzle-1000-pieces.82004-1.fs.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+.manage-florist-header{
+  background-image: linear-gradient(to right,rgba(255, 236, 236, 0.563),rgba(246, 223, 223, 0.59)),url(https://media.istockphoto.com/photos/vivid-color-hydrangea-in-blur-style-picture-id496705525?b=1&k=20&m=496705525&s=170667a&w=0&h=KWISe823HRVZHeK9CCbMOvoZC8aZwgiB_dkkJBTYFuw=);
+  padding: 2rem;
+  text-shadow: 2px 2px 3px #9d9d9d;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  color: rgb(87, 34, 167);
+  background-position: center;
+  font-family: 'Calligraffitti', cursive;
+  letter-spacing: 3px;
+}
+
+body{
+  background: url(http://localhost:5000/images/main_back.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
